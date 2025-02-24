@@ -14,8 +14,8 @@
             <ul>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">My Skills</a></li>
-                <li><a href="#projects">My Projects</a></li>
                 <li><a href="#education">Education & Cert</a></li>
+                <li><a href="#projects">My Projects</a></li>
                 <li><a href="#resume">My Resume</a></li>
                 <li><a href="#contact">Contact Me</a></li>
             </ul>
@@ -112,7 +112,18 @@
 </div>
 <hr>
 <!-- Projects Section -->
- <section>
+ <section id="projects">
+    <h3>My Project</h3>
+    <div class="container">
+        <img id="projectImage" class="project-image" src="" alt="Project Image">
+        <h2 id="projectTitle" class="project-title"></h2>
+        <p id="projectDescription" class="project-description"></p>
+        <div class="buttons">
+            <button class="button" onclick="prevProject()">← Previous</button>
+            <button class="button" onclick="viewProject()">View My Project</button>
+            <button class="button" onclick="nextProject()">Next →</button>
+        </div>
+    </div>
 
  </section>
 <script src="script.js"></script>
