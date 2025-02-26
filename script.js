@@ -66,3 +66,6 @@ function viewProject() {
 
 // Load first project on page load
 displayProject(currentIndex);
+//my resume section
+
+//contact section
